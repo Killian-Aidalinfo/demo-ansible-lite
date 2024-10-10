@@ -7,7 +7,7 @@ FILE="/tmp/demo-ansible-lite"
 CURRENT_TIME=$(date +"%Y-%m-%d %H:%M:%S")
 
 # Définir le commit (remplace X par le vrai commit si besoin)
-COMMIT="65843d9"
+COMMIT="e743954"
 
 # Message à écrire dans le fichier
 MESSAGE="Salut, je suis le commit $COMMIT à l'heure $CURRENT_TIME"
