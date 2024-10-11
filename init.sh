@@ -1,13 +1,12 @@
 #!/bin/bash
 
 # Définir le chemin du fichier
-FILE="/tmp/demo-ansible-lite"
+FILE="/tmp/demo-ansible-lite-file"
 
 # Récupérer l'heure actuelle avec les secondes (format: YYYY-MM-DD HH:MM:SS)
 CURRENT_TIME=$(date +"%Y-%m-%d %H:%M:%S")
 
-# Définir le commit (remplace X par le vrai commit si besoin)
-COMMIT="e743954"
+COMMIT="05b022b"
 
 # Message à écrire dans le fichier
 MESSAGE="Salut, je suis le commit $COMMIT à l'heure $CURRENT_TIME"
