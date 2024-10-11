@@ -6,7 +6,7 @@ FILE="/tmp/demo-ansible-lite-file"
 # Récupérer l'heure actuelle avec les secondes (format: YYYY-MM-DD HH:MM:SS)
 CURRENT_TIME=$(date +"%Y-%m-%d %H:%M:%S")
 
-COMMIT="40c5816"
+COMMIT="618e415"
 
 # Message à écrire dans le fichier
 MESSAGE="Salut, je suis le commit $COMMIT à l'heure $CURRENT_TIME"
